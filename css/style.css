@@ -124,7 +124,7 @@ h2{font-size: 72px; line-height: 60px; border-bottom: 10px solid; margin-bottom:
 .wrap-8 b{font-size: 18px; margin-bottom: 80px; display: inline-block;} /* b is inline block so it takes gap from top & bottom*/
 
 .wrap-9{padding: 100px 0 140px; background: #fff; color: var(--dg);}
-canvas{background: #ddd; margin-top: 50px; border-radius: 50%;}  /* canvas makes chart through javascript */
+canvas{background: #ddd; margin-top: 50px; border-radius: 50%; max-width:100%}  /* canvas makes chart through javascript */
 .accordion{margin-top: 50px;}
 .accordion li{margin-bottom: 10px;}
 .accordion a{color: #898989; border: 1px solid #ebebeb; display: block; padding: 13px 19px;  border-radius: 10px; font-weight: bold; font-size: 18px;}
