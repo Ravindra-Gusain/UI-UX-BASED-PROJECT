@@ -131,7 +131,7 @@ canvas{background: #ddd; margin-top: 50px; border-radius: 50%; max-width:100%}  
 .accordion span.fa{margin-right: 17px;}
 .accordion p{display: none; font: 100 14px/22px var(--ff); margin: 20px;}
 .accordion li.active a{color: var(--red);}
-.accordion li.active p{display: block;}
+.accordion li:first-child  p{display: block;}
 .accordion a::after{content: "+"; float: right;}
 .accordion li.active a::after{content: "-";}
 
